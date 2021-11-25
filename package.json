@@ -1,0 +1,52 @@
+{
+  "name": "defiance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Downfall",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@database": "./Utils/Database/pool.js",
+    "@functions": "./Utils/functions.js",
+    "@sixmans": "./Utils/sixmans_functions",
+    "@config": "./Utils/config.js",
+    "@logging": "./Utils/logging.js",
+    "@helper": "./Utils/Database/helper.js",
+    "@pagination": "./Utils/pagination.js",
+    "@utils": "./Utils/utils.js"
+  },
+  "dependencies": {
+    "@part-time-pros/rltracker": "^0.2.0",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "canvacord": "^5.1.0",
+    "canvas": "^2.7.0",
+    "canvas-multiline-text": "^1.0.3",
+    "challonge": "^2.2.0",
+    "cheerio": "^1.0.0-rc.10",
+    "chokidar": "^3.5.1",
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.1",
+    "elo-rating": "^1.0.1",
+    "ffmpeg-static": "^4.3.0",
+    "fs": "0.0.1-security",
+    "hastebin-gen": "^2.0.5",
+    "js-sha256": "^0.9.0",
+    "module-alias": "^2.2.2",
+    "module-invalidate": "^1.0.1",
+    "moment": "^2.29.1",
+    "ms": "^2.1.2",
+    "mysql": "^2.18.1",
+    "opusscript": "0.0.8",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "simple-youtube-api": "^5.2.1",
+    "soundcloud-downloader": "^1.0.0",
+    "table": "^6.1.0",
+    "ytdl-core-discord": "^1.3.1"
+  }
+}
